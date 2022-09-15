@@ -11,7 +11,7 @@ public class AppServer {
     private static int PORT = 1337;
     private static String databaseUsername = "s335126";
     private static String databaseAddress = "jdbc:postgresql://pg:5432/studs";
-    private static String databasePassword = "nExe=3971";
+    private static String databasePassword = "СЕКРЕТ";
 
     public static void main(String[] args) {
         DatabaseHandler databaseHandler = new DatabaseHandler(databaseAddress, databaseUsername, databasePassword);
